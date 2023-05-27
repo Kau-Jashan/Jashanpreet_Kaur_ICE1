@@ -41,7 +41,11 @@ public class CardTrick {
         Card key = new Card();
         key.setValue(val);
         key.setSuit(suit);  
-       
+        // hard-coded answer for part 6
+        Card key = new Card();
+        key.setValue(11);
+        key.setSuit("Hearts");
+        
         boolean found = false;
         System.out.println("You are searching for: " + key);
         for (int i = 0; i < magicHand.length; i++) {
