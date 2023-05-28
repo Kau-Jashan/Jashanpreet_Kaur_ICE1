@@ -1,3 +1,7 @@
+/**
+ * Student number: 991674920
+ */
+
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
@@ -11,7 +15,7 @@ package card;
  * There are 52 cards in a deck, no jokers.
  * This code is to be used in ICE1. When you create your own branch,
  * add your name as a modifier.
- * @author srinivsi
+ * @author Jashanpreet Kaur
  */
 public class Card {
 
@@ -46,7 +50,18 @@ public class Card {
     public void setValue(int value) {
         this.value = value;
     }
-   
-   
+  // added to string function
+
+    /**
+     *
+     * @return
+     */
+    @Override
+    public String toString() {
+        return "Card{" +
+                "suit='" + suit + '\'' +
+                ", value=" + value +
+                '}';
+    }
     
 }
